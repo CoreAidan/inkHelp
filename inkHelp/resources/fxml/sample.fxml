@@ -6,23 +6,28 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.control.TextField?>
 <GridPane fx:controller="com.coreaidan.inkhelp.Controller"
-          stylesheets="/css/sample.css"
+          stylesheets="/css/metro8-dark.css"
           xmlns:fx="http://javafx.com/fxml">
 
-    <Text text="Sup"
+    <Text text="inkHelp"
           styleClass="title"
           GridPane.rowIndex="0"
-          GridPane.columnSpan="2"
           GridPane.halignment="CENTER"/>
 
-    <Label text="First Name" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Label text="idea: "
+           GridPane.rowIndex="1"
 
-    <TextField fx:id="firstName" GridPane.columnIndex="1"
-               GridPane.rowIndex="1"/>
+           GridPane.halignment="CENTER"/>
 
-    <Button text="Say sup"
+    <Label fx:id="noun"
+           text="noun will go here!"
+           GridPane.rowIndex="2"
+           GridPane.halignment="CENTER"/>
+
+
+    <Button text="Generate"
             onAction="#handleSaySup"
-            GridPane.rowIndex="2"
-            GridPane.columnIndex="1" GridPane.halignment="RIGHT"/>
+            GridPane.rowIndex="3"
+            GridPane.halignment="CENTER"/>
 
 </GridPane>

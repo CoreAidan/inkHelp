@@ -1,4 +1,5 @@
 .root {
+    -fx-background-color: #afe9ff;
     -fx-font-family: Papyrus;
     -fx-alignment: center;
     -fx-hgap: 10;
@@ -7,14 +8,48 @@
 
 .title {
     -fx-font-size: 80px;
-    -fx-fill: AQUA
+    -fx-fill: BLACK;
 }
 
 .text-field {
     -fx-font-family: Helvetica;
 }
 
-#firstName {
-    -fx-background-color: yellow;
-    -fx-font-family: Impact;
+#noun {
+    -fx-background-color: green;
+    -fx-font-size: 20px;
+}
+
+.button {
+  -fx-margin-right: 10px;
+  -fx-width: 100px;
+  -fx-background: #1abc9c;
+  -fx-border-bottom: #16a085 3px solid;
+  -fx-border-left: #16a085 1px solid;
+  -fx-border-right: #16a085 1px solid;
+  -fx-border-radius: 6px;
+  -fx-text-align: center;
+  -fx-color: white;
+  -fx-padding: 10px;
+  -fx-float: left;
+  -fx-font-size: 12px;
+  -fx-font-weight: 800;
+}
+
+.button:hover {
+  -fx-opacity: 0.8;
+}
+
+.button:active {
+  -fx-width: 100px;
+  -fx-background: #18B495;
+  -fx-border-bottom: #16a085 1px solid;
+  -fx-border-left: #16a085 1px solid;
+  -fx-border-right: #16a085 1px solid;
+  -fx-border-radius: 6px;
+  -fx-text-align: center;
+  -fx-color: white;
+  -fx-padding: 10px;
+  -fx-margin-top: 3px;
+  -fx-float: left;
 }
